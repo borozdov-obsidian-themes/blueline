@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-blueline",
+  "private": true,
+  "description": "Graphite pencil on warm vellum: hairline rules, sharp drafted corners, and a single serif flourish in an otherwise plain sans page.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
